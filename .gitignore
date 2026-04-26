@@ -1,6 +1,9 @@
 # dependencies
 node_modules/
 
+# local agent workspace
+.agents/
+
 # build outputs
 dist/
 build/
@@ -29,3 +32,5 @@ pnpm-debug.log*
 
 # TypeScript
 *.tsbuildinfo
+
+/.agents

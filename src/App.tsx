@@ -81,6 +81,8 @@ function App() {
   )
   const SelectedIcon = selectedAgentInfo.icon
 
+  console.log("render", { selectedAgent, temperature, memoryEnabled })
+
   return (
     <main className="min-h-screen bg-[linear-gradient(180deg,#f8fafc_0%,#eef6f4_45%,#f7f3e8_100%)]">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-5 sm:px-6 lg:px-8">
