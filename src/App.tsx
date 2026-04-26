@@ -81,7 +81,7 @@ function App() {
   )
   const SelectedIcon = selectedAgentInfo.icon
 
-  console.log("render", { selectedAgent, temperature, memoryEnabled })
+  console.log("render", { selectedAgent, temperature, memoryEnabled }, 1232323)
 
   return (
     <main className="min-h-screen bg-[linear-gradient(180deg,#f8fafc_0%,#eef6f4_45%,#f7f3e8_100%)]">
